@@ -1,37 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Studio</title>
+    <title>Document</title>
   </head>
   <body>
+    <!--Шапка сайта-->
     <header>
       <nav>
         <a href="/"> Web Studio </a>
-        <ul lang="ru">
+        <ul>
           <li><a href="">Студия</a></li>
           <li><a href="">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
-      </nav>
-      <ul>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+38 096 111 11 11</a></li>
-      </ul>
-      <div>
-        <section lang="ru">
-          <h1>эффективные решения для вашего бизнеса</h1>
-          <a href="">Заказать услугу</a>
-        </section>
-      </div>
-    </header>
-    <main>
-      <section lang="ru">
-        <h2>Примеры эффективного решения для вашего бизнеса</h2>
         <ul>
           <li>
-            <img src="./images/antenna_1.svg" alt="antenna" width="70" />
+            <a href="">
+              <img src="./images/envelope (hover).svg" alt="почта" />
+              <a class="contacts-link" href="moleto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./images/Vector.svg" alt="телефон" />
+              <a class="contacts-link" href="tel:380961111111"
+                >+38 096 111 11 11</a
+              >
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <--!Герой-->
+      <section>
+        <h1>эффективные решения для вашего бизнеса</h1>
+        <a href="">Заказать услугу</a>
+      </section>
+      <!--Деятельность-->
+      <section>
+        <h2>Приемущества</h2>
+        <ul>
+          <li>
+            <a href="">
+              <img src="./images/antenna_1.svg" alt="Спутниковая антена" />
+            </a>
             <h3>Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
@@ -39,7 +57,9 @@
             </p>
           </li>
           <li>
-            <img src="./images/clock_1.svg" alt="clock" width="70" />
+            <a href="">
+              <img src="./images/clock_1.svg" alt="Часы" />
+            </a>
             <h3>Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
@@ -47,7 +67,9 @@
             </p>
           </li>
           <li>
-            <img src="./images/diagram_1.svg" alt="diagram" width="70" />
+            <a href="">
+              <img src="./images/diagram_1.svg" alt="Диаграмма" />
+            </a>
             <h3>Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
@@ -55,7 +77,9 @@
             </p>
           </li>
           <li>
-            <img src="./images/astronaut_1.svg" alt="astronaut" width="70" />
+            <a href="">
+              <img src="./images/astronaut_1.svg" alt="астронафт" />
+            </a>
             <h3>Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
@@ -63,185 +87,269 @@
             </p>
           </li>
         </ul>
-      </section>
-      <section lang="ru">
+
         <h2>Чем мы занимаемся</h2>
         <ul>
           <li>
-            <img
-              src="./images/Desktop_applications.jpg"
-              alt="Десктопные приложения"
-              width="380"
-            />
-            <h3>Десктопные приложения</h3>
+            <a href="">
+              <img
+                src="./images/Desktop_applications.jpg"
+                alt="Ноутбук"
+                width="380"
+              />
+              <p>Десктопные приложения</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/Mobile_applications.jpg"
-              alt="Мобильные приложения"
-              width="380"
-            />
-            <h3>Мобильные приложения</h3>
+            <a href="">
+              <img
+                src="./images/Mobile_applications.jpg"
+                alt="Смартфон"
+                width="380"
+              />
+              <p>Мобильные приложения</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/Design_solutions.jpg"
-              alt="Дизайнерские решения"
-              width="380"
-            />
-            <h3>Дизайнерские решения</h3>
+            <a href="">
+              <img
+                src="./images/Design_solutions.jpg"
+                alt="Дизайн сайта"
+                width="380"
+              />
+              <p>Дизайнерские решения</p>
+            </a>
           </li>
         </ul>
       </section>
+
+      <!--Команда-->
       <section>
-        <h2 lang="ru">Наша команда</h2>
+        <h2>Наша команда</h2>
         <ul>
           <li>
-            <img
-              src="./images/John_Smith.jpg"
-              alt="John Smith-product designer"
-              width="278"
-            />
-            <h2>John Smith</h2>
+            <h3>John Smith</h3>
             <p>Product Designer</p>
+            <img src="./images/John_Smith.jpg" alt="John Smith на фото" />
+            <ul>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/instagram_2.svg"
+                    alt="Инстаграм John Smith"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/twitter_1.svg" alt="Твиттер John Smith" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/facebook_1.svg" alt="Фейсбук John Smith" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/linkedin_1.svg"
+                    alt="Линкедин John Smith"
+                  />
+                </a>
+              </li>
+            </ul>
           </li>
+
           <li>
-            <a href=""></a>
-            <img src="./images/instagram_2.svg" alt="instagram" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/twitter_1.svg" alt="twitter" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/facebook_1.svg" alt="facebook" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/linkedin_1.svg" alt="linkedin" width="20" />
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <img
-              src="./images/Marta_Stewart.jpg"
-              alt="Marta Stewart-frontend developer"
-              width="278"
-            />
-            <h2>Marta Stewart</h2>
+            <h3>Marta Stewart</h3>
             <p>Frontend Developer</p>
+            <img src="./images/Marta_Stewart.jpg" alt="Marta Stewart на фото" />
+            <ul>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/instagram_2.svg"
+                    alt="Инстаграм Marta Stewart"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/twitter_1.svg"
+                    alt="Твиттер Marta Stewart"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/facebook_1.svg"
+                    alt="Фейсбук Marta Stewart"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/linkedin_1.svg"
+                    alt="Линкедин Marta Stewart"
+                  />
+                </a>
+              </li>
+            </ul>
           </li>
+
           <li>
-            <a href=""></a>
-            <img src="./images/instagram_2.svg" alt="instagram" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/twitter_1.svg" alt="twitter" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/facebook_1.svg" alt="facebook" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/linkedin_1.svg" alt="linkedin" width="20" />
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <img
-              src="./images/Robert_Jakis.jpg"
-              alt="Robert Jakis-marketing"
-              width="278"
-            />
-            <h2>Robert Jakis</h2>
+            <h3>Robert Jakis</h3>
             <p>Marketing</p>
+            <img src="./images/Robert_Jakis.jpg" alt="Robert Jakis на фото" />
+            <ul>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/instagram_2.svg"
+                    alt="Инстаграм Robert Jakis"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/twitter_1.svg"
+                    alt="Твиттер Robert Jakis"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/facebook_1.svg"
+                    alt="Фейсбук Robert Jakis"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/linkedin_1.svg"
+                    alt="Линкедин Robert Jakis"
+                  />
+                </a>
+              </li>
+            </ul>
           </li>
+
           <li>
-            <a href=""></a>
-            <img src="./images/instagram_2.svg" alt="instagram" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/twitter_1.svg" alt="twitter" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/facebook_1.svg" alt="facebook" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/linkedin_1.svg" alt="linkedin" width="20" />
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <img
-              src="./images/Martin_Doe.jpg"
-              alt="Martin Doe-UI designer"
-              width="278"
-            />
-            <h2>Martin Doe</h2>
+            <h3>Martin Doe</h3>
             <p>UI Designer</p>
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/instagram_2.svg" alt="instagram" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/twitter_1.svg" alt="twitter" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/facebook_1.svg" alt="facebook" width="20" />
-          </li>
-          <li>
-            <a href=""></a>
-            <img src="./images/linkedin_1.svg" alt="linkedin" width="20" />
+            <img src="./images/Martin_Doe.jpg" alt="Martin Doe на фото" />
+            <ul>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/instagram_2.svg"
+                    alt="Инстаграм Martin Doe"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/twitter_1.svg" alt="Твиттер Martin Doe" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/facebook_1.svg" alt="Фейсбук Martin Doe" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="./images/linkedin_1.svg"
+                    alt="Линкедин Martin Doe"
+                  />
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
+
+      <!--Клиенты-->
       <section>
-        <h2 lang="ru">Постоянные клиенты</h2>
+        <h2>Постоянные клиенты</h2>
         <ul>
-          <li><img src="./images/logo_1.svg" alt="logo1" width="44" /></li>
-          <li><img src="./images/logo_2.svg" alt="logo2" width="40" /></li>
-          <li><img src="./images/logo_3.svg" alt="logo3" width="41" /></li>
-          <li><img src="./images/logo_4.svg" alt="logo4" width="82" /></li>
-          <li><img src="./images/logo_5.svg" alt="logo5" width="59" /></li>
-          <li><img src="./images/logo_6.svg" alt="logo6" width="88" /></li>
+          <li>
+            <img src="./images/logo_1.svg" alt="" />
+          </li>
+          <li>
+            <img src="./images/logo_2.svg" alt="" />
+          </li>
+          <li>
+            <img src="./images/logo_3.svg" alt="" />
+          </li>
+          <li>
+            <img src="./images/logo_4.svg" alt="" />
+          </li>
+          <li>
+            <img src="./images/logo_5.svg" alt="" />
+          </li>
+          <li>
+            <img src="./images/logo_6.svg" alt="" />
+          </li>
         </ul>
       </section>
     </main>
+    <!--Футер-->
     <footer>
-      <a href="/"> Web Studio </a>
-      <ul lang="ru">
-        <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
-        <li><a href="">info@example.com</a></li>
-        <li><a href="">+38 099 111 11 11</a></li>
-      </ul>
-      <ul lang="ru">
-        <li><p>присоединяйтесь</p></li>
+      <ul>
         <li>
-          <a href=""></a>
-          <img src="./images/instagram_2.svg" alt="instagram" width="20" />
+          <a href="/"> Web Studio </a>
+        </li>
+        <li>г. Киев, пр-т Леси Украинки, 26</li>
+        <li>
+          <a class="contacts-link" href="mileto:info@example.com"
+            >info@example.com
+          </a>
         </li>
         <li>
-          <a href=""></a>
-          <img src="./images/twitter_1.svg" alt="twitter" width="20" />
-        </li>
-        <li>
-          <a href=""></a>
-          <img src="./images/facebook_1.svg" alt="facebook" width="20" />
-        </li>
-        <li>
-          <a href=""></a>
-          <img src="./images/linkedin_1.svg" alt="linkedin" width="20" />
+          <a class="contacts-link" href="tel:380991111111">+38 099 111 11 11</a>
         </li>
       </ul>
+
+      <h3>присоединяйтесь</h3>
+      <ul>
+        <li>
+          <ul>
+            <li>
+              <a href="">
+                <img src="./images/instagram_2.svg" alt="Инстаграм" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/twitter_1.svg" alt="Твиттер" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/facebook_1.svg" alt="Фейсбук" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="./images/linkedin_1.svg" alt="Линкедин" />
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>подписаться на рассылку</h3>
+
+      <div>2020 | Developed by GoIT Students</div>
     </footer>
   </body>
 </html>
